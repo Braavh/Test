@@ -1,5 +1,31 @@
-a {
-    color:green;
-    font-size:24px;
-    text-decoration:none;
+body {
+    color: white;
+    font-size: 20px;
+    font-family: 'Lobster Two', cursive;
+    background-image:url(fond.jpg);
 }
+
+a {
+    color:red;
+    font-size:24px;
+}
+
+li {
+    display: inline-block;
+}
+
+#navigation a {
+    padding: 4px 10px; 
+    font-weight: bold;
+    text-decoration: none;
+    color: #046380;
+}
+
+#navigation a:hover, #navigation a:focus {
+    text-decoration: underline;
+    color: #01B0F0;
+}
+
+#navigation #en-cours a {
+    background-color: #91BD09;
+    color: #fff;
