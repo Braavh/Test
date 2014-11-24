@@ -1,8 +1,24 @@
 body {
     color: white;
     font-size: 20px;
+    margin:5px 250px;
     font-family: 'Lobster Two', cursive;
-    background-image:url(fond.jpg);
+    background-image:url(images/fond.jpg);
+}
+
+main {
+    max-width:1000px;
+    margin: auto;
+}
+
+header, footer{
+    margin: 0;
+    background-color: rgba(40, 40, 40, 0.7);
+    height:35px;    
+}
+
+h1,h3 {
+    text-shadow: 2px 2px 3px #000000;
 }
 
 a {
@@ -24,6 +40,8 @@ li {
 #navigation a:hover, #navigation a:focus {
     text-decoration: underline;
     color: #01B0F0;
+    font-size:25px;
+
 }
 
 #navigation #en-cours a {
