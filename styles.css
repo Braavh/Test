@@ -1,5 +1,6 @@
 body {
     color: white;
+    text-shadow: 1px 1px rgba(40,40,40,0.7);
     font-size: 20px;
     margin:5px 250px;
     font-family: 'Lobster Two', cursive;
@@ -11,19 +12,32 @@ main {
     margin: auto;
 }
 
-header, footer{
+header{
     margin: 0;
     background-color: rgba(40, 40, 40, 0.7);
-    height:35px;    
+    height:35px;
+    position: relative;
+}
+footer{
+    margin: 0;
+    background-color: rgba(40, 40, 40, 0.7);
+    height:35px;
+    position: relative;
 }
 
 h1,h3 {
     text-shadow: 2px 2px 3px #000000;
 }
 
+h2 {
+    color: #FF8000;
+     text-shadow: 2px 2px 3px #000000;
+}
+
 a {
-    color:red;
     font-size:24px;
+    border-radius: 10px;
+    transition: all 0.3s linear;
 }
 
 li {
@@ -44,6 +58,6 @@ li {
 
 }
 
-#navigation #en-cours a {
-    background-color: #91BD09;
-    color: #fff;
+.en-cours a {
+    color: #01B0F0;
+}
