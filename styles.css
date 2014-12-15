@@ -38,6 +38,10 @@ body {
     background-image:url(images/fond.jpg);
 }
 
+p {
+    border-radius: 10px;
+}
+
 main {
     min-height: 100%;
     max-width:1000px;
