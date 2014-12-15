@@ -53,6 +53,10 @@ h2 {
      text-shadow: 2px 2px 3px #000000;
 }
 
+li {
+    text-decoration: none;
+}
+
 a {
     font-size:24px;
     border-radius: 10px;
@@ -64,7 +68,6 @@ a {
 footer{
     margin: 0;
     background-color: rgba(40, 40, 40, 0.7);
-    height:35px;
     position: relative;
     bottom: 0;
 }
